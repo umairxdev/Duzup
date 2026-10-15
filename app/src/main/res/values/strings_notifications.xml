@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notification channels (each can be muted or tuned on its own in system settings) -->
+    <string name="channel_due_name">Due today</string>
+    <string name="channel_due_desc">Bills that are due today</string>
+    <string name="channel_upcoming_name">Upcoming bills</string>
+    <string name="channel_upcoming_desc">Heads-ups before a bill is due</string>
+    <string name="channel_overdue_name">Late bills</string>
+    <string name="channel_overdue_desc">Bills that are past due and still unpaid</string>
+    <string name="channel_events_name">Events</string>
+    <string name="channel_events_desc">Reminders for your events and plans</string>
+    <string name="channel_tasks_name">Tasks</string>
+    <string name="channel_tasks_desc">Reminders for things you want to get done</string>
+    <string name="channel_notes_name">Notes</string>
+    <string name="channel_notes_desc">Reminders attached to your notes</string>
+    <string name="channel_birthdays_name">Birthdays</string>
+    <string name="channel_birthdays_desc">Never miss a birthday</string>
+    <string name="channel_routines_name">Routines</string>
+    <string name="channel_routines_desc">Your daily and weekly habits</string>
+
+    <string name="notif_text_with_amount">%1$s · %2$s</string>
+
+    <!-- "When" phrases dropped into the lines below as %2$s -->
+    <string name="phrase_tomorrow">tomorrow</string>
+    <string name="phrase_now">now</string>
+    <string name="phrase_earlier_today">earlier today</string>
+    <string name="phrase_yesterday">yesterday</string>
+    <string name="phrase_since">on %1$s</string>
+    <plurals name="phrase_in_days">
+        <item quantity="one">in %d day</item>
+        <item quantity="other">in %d days</item>
+    </plurals>
+    <plurals name="phrase_in_hours">
+        <item quantity="one">in %d hour</item>
+        <item quantity="other">in %d hours</item>
+    </plurals>
+    <plurals name="phrase_in_minutes">
+        <item quantity="one">in %d min</item>
+        <item quantity="other">in %d min</item>
+    </plurals>
+
+    <!--
+        Notification wording pools. One line is picked per reminder (deterministically, so the same reminder never
+        changes its words). Arguments: %1$s title, %2$s when-phrase, %3$s clock time, %4$s age (birthdays).
+        The notification title already carries the item's name.
+    -->
+
+    <!-- Bills -->
+    <string-array name="notif_bill_early">
+        <item>Heads up: due %2$s. Plenty of time</item>
+        <item>Due %2$s, so you can relax… for now</item>
+        <item>Future you says thanks for planning ahead. Due %2$s</item>
+        <item>Quick reminder: this lands %2$s</item>
+    </string-array>
+    <string-array name="notif_bill_tomorrow">
+        <item>Due tomorrow. Quick pay today?</item>
+        <item>Tomorrow\'s the day. Get it sorted now</item>
+        <item>Last call before it\'s due tomorrow</item>
+    </string-array>
+    <string-array name="notif_bill_now">
+        <item>Due today. Let\'s get it done</item>
+        <item>Today\'s the day. Don\'t let it slip</item>
+        <item>Due today at %3$s. Handle it</item>
+    </string-array>
+    <string-array name="notif_bill_late">
+        <item>Was due %2$s and it\'s still unpaid. Quick fix?</item>
+        <item>Slipped past its date (due %2$s). Pay it to get back on track</item>
+        <item>Still pending. It was due %2$s. It happens, sort it out</item>
+    </string-array>
+    <string-array name="notif_bill_back">
+        <item>You snoozed this one. It\'s back</item>
+        <item>Round two: still due. Ready now?</item>
+        <item>Reminder, take two</item>
+    </string-array>
+
+    <!-- Events -->
+    <string-array name="notif_event_early">
+        <item>Coming up %2$s. Mark your calendar</item>
+        <item>Heads up, it\'s happening %2$s</item>
+        <item>Happening %2$s. Plan your fit</item>
+    </string-array>
+    <string-array name="notif_event_tomorrow">
+        <item>Tomorrow at %3$s. Don\'t forget</item>
+        <item>It\'s tomorrow! Get ready</item>
+        <item>See you tomorrow at %3$s</item>
+    </string-array>
+    <string-array name="notif_event_hours">
+        <item>Starts %2$s (%3$s). Time to get ready</item>
+        <item>Happening %2$s. Time to head out?</item>
+        <item>Starting %2$s at %3$s</item>
+    </string-array>
+    <string-array name="notif_event_minutes">
+        <item>Starts %2$s. Go go go</item>
+        <item>Almost time, starts %2$s. You\'ve got this</item>
+        <item>Starts %2$s</item>
+    </string-array>
+    <string-array name="notif_event_now">
+        <item>It\'s happening now</item>
+        <item>Starting now. Have fun!</item>
+        <item>Showtime</item>
+    </string-array>
+    <string-array name="notif_event_back">
+        <item>Snooze over. Event time check</item>
+        <item>Back with a reminder</item>
+    </string-array>
+
+    <!-- Tasks -->
+    <string-array name="notif_task_tomorrow">
+        <item>Due tomorrow at %3$s. Knock it out early?</item>
+        <item>Tomorrow\'s task. Future you will thank you</item>
+        <item>One day left on this one</item>
+    </string-array>
+    <string-array name="notif_task_now">
+        <item>Time to do this one</item>
+        <item>It\'s go time: %3$s</item>
+        <item>Due now. You\'ve got this</item>
+    </string-array>
+    <string-array name="notif_task_late">
+        <item>Was due %2$s. Quick win today?</item>
+        <item>Still open. It was due %2$s. Let\'s finish it</item>
+        <item>Pending since %2$s. Small step, big relief</item>
+    </string-array>
+    <string-array name="notif_task_back">
+        <item>Snooze over. Ready to do this?</item>
+        <item>Back again. Tick it off?</item>
+    </string-array>
+
+    <!-- Notes -->
+    <string-array name="notif_memo_now">
+        <item>Your note says hi</item>
+        <item>A reminder you set for yourself</item>
+        <item>Don\'t forget this one</item>
+    </string-array>
+    <string-array name="notif_memo_back">
+        <item>Snooze over. About that note</item>
+        <item>Back again</item>
+    </string-array>
+
+    <!-- Birthdays (with and without an age) -->
+    <string-array name="notif_birthday_early">
+        <item>Birthday coming up %2$s. Plan something?</item>
+        <item>Birthday %2$s. Time for gift ideas</item>
+    </string-array>
+    <string-array name="notif_birthday_tomorrow">
+        <item>Birthday tomorrow! Don\'t forget to text</item>
+        <item>Tomorrow\'s the day. Message ready?</item>
+    </string-array>
+    <string-array name="notif_birthday_now">
+        <item>It\'s their birthday today! Send some love</item>
+        <item>Birthday time. Go say hi</item>
+    </string-array>
+    <string-array name="notif_birthday_age_early">
+        <item>Turning %4$s %2$s. Plan something?</item>
+        <item>They turn %4$s %2$s. Gift time?</item>
+    </string-array>
+    <string-array name="notif_birthday_age_tomorrow">
+        <item>Turns %4$s tomorrow! Message ready?</item>
+        <item>Tomorrow they\'re %4$s. Don\'t forget</item>
+    </string-array>
+    <string-array name="notif_birthday_age_now">
+        <item>Happy %4$s! Send some love</item>
+        <item>They turn %4$s today. Go say hi</item>
+    </string-array>
+    <string-array name="notif_birthday_back">
+        <item>Snooze over. About that birthday</item>
+        <item>Back again. Birthday wishes?</item>
+    </string-array>
+
+    <!-- Routines -->
+    <string-array name="notif_routine_minutes">
+        <item>Routine %2$s. Get ready</item>
+        <item>Coming up %2$s. You\'ve got this</item>
+    </string-array>
+    <string-array name="notif_routine_now">
+        <item>Routine time. Quick one, you got it</item>
+        <item>Time for your routine</item>
+        <item>Tiny habit, big payoff</item>
+    </string-array>
+    <string-array name="notif_routine_back">
+        <item>Snooze over. Still doing this one?</item>
+        <item>Back again. Let\'s go</item>
+    </string-array>
+
+    <!-- Fallbacks for any kind and phase without its own pool -->
+    <string-array name="notif_generic_early">
+        <item>Coming up %2$s</item>
+        <item>Happening %2$s</item>
+    </string-array>
+    <string-array name="notif_generic_tomorrow">
+        <item>That\'s tomorrow. Heads up</item>
+        <item>Tomorrow at %3$s</item>
+    </string-array>
+    <string-array name="notif_generic_hours">
+        <item>Coming up %2$s</item>
+        <item>Coming up %2$s</item>
+    </string-array>
+    <string-array name="notif_generic_minutes">
+        <item>Starting %2$s</item>
+        <item>Happening %2$s</item>
+    </string-array>
+    <string-array name="notif_generic_now">
+        <item>It\'s time</item>
+        <item>Now\'s the moment</item>
+    </string-array>
+    <string-array name="notif_generic_late">
+        <item>Was due %2$s. Still open</item>
+        <item>Late, it was due %2$s. Quick fix?</item>
+    </string-array>
+    <string-array name="notif_generic_back">
+        <item>Snooze over. Back at you</item>
+        <item>Round two</item>
+    </string-array>
+</resources>

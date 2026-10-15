@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Duzup</string>
+    <string name="intro_tagline">Stay on top of it</string>
+    <string name="intro_skip">Skip intro</string>
+
+    <!-- Common actions -->
+    <string name="action_add">Add</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_ok">Got it</string>
+    <string name="action_save">Save</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_skip_event">Skip this one</string>
+    <string name="action_mark_paid">Mark paid</string>
+    <string name="action_snooze">Remind later</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_edit_payment">Edit payment</string>
+    <string name="action_restore_skipped">Un-skip</string>
+    <string name="more_actions">More</string>
+    <string name="a11y_selected">Selected</string>
+    <string name="open_settings">Open settings</string>
+    <string name="open_item">Open</string>
+    <string name="open_bill">Open</string>
+
+    <!-- Notification actions -->
+    <string name="action_paid_it">Paid it</string>
+    <string name="action_done">Done</string>
+    <string name="action_got_it">Got it</string>
+    <string name="action_open">Open</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_settings">Settings</string>
+    <string name="add_bill">Add</string>
+    <string name="add_something">Add something</string>
+    <string name="previous_month">Previous month</string>
+    <string name="next_month">Next month</string>
+
+    <!-- Kinds -->
+    <string name="kind_bill">Bill</string>
+    <string name="kind_event">Event</string>
+    <string name="kind_task">Task</string>
+    <string name="kind_note">Note</string>
+    <string name="kind_birthday">Birthday</string>
+    <string name="kind_routine">Routine</string>
+    <string name="word_bill">bill</string>
+    <string name="word_event">event</string>
+    <string name="word_task">task</string>
+    <string name="word_note">note</string>
+    <string name="word_birthday">birthday</string>
+    <string name="word_routine">routine</string>
+    <string name="chip_all">All</string>
+    <string name="chip_bills">Bills</string>
+    <string name="chip_events">Events</string>
+    <string name="chip_tasks">Tasks</string>
+    <string name="chip_notes">Notes</string>
+    <string name="chip_birthdays">Birthdays</string>
+    <string name="chip_routines">Routines</string>
+
+    <!-- Add picker -->
+    <string name="picker_title">What are we adding?</string>
+    <string name="quick_add_label">Quick add</string>
+    <string name="quick_add_hint">e.g. call mom tomorrow 6pm</string>
+    <string name="quick_add_preview">Looks like: %1$s</string>
+    <string name="quick_add_continue">Continue</string>
+    <string name="picker_or_pick">…or pick one</string>
+    <string name="tile_bill">Pay it on time</string>
+    <string name="tile_event">Plans and hangouts</string>
+    <string name="tile_task">Get it done</string>
+    <string name="tile_note">Jot it down</string>
+    <string name="tile_birthday">Never forget one</string>
+    <string name="tile_routine">Build a habit</string>
+
+    <!-- Categories -->
+    <string name="category_utilities">Utilities</string>
+    <string name="category_internet">Internet</string>
+    <string name="category_subscriptions">Subscript.</string>
+    <string name="category_rent">Rent</string>
+    <string name="category_loans">Loans</string>
+    <string name="category_insurance">Insurance</string>
+    <string name="category_education">Education</string>
+    <string name="category_vehicle">Vehicle</string>
+    <string name="category_other">Other</string>
+    <string name="category_more">More</string>
+    <string name="choose_category">Pick a category</string>
+    <string name="new_category">New category</string>
+    <string name="edit_category">Edit category</string>
+    <string name="edit_category_named">Edit category %1$s</string>
+    <string name="delete_category_named">Delete category %1$s</string>
+    <string name="delete_category_title">Delete this category?</string>
+    <string name="delete_category_message">Bills in it move to Other. Nothing else is deleted.</string>
+    <string name="category_name">Category name</string>
+    <string name="category_icon">Icon</string>
+    <string name="category_color">Color</string>
+
+    <!-- Home -->
+    <string name="greeting_morning">Morning</string>
+    <string name="greeting_afternoon">Hey</string>
+    <string name="greeting_evening">Evening</string>
+    <string name="home_headline">Stay ahead.</string>
+    <string name="home_subtitle_clear">All caught up. Nice</string>
+    <plurals name="home_subtitle_late">
+        <item quantity="one">%d thing is late. Quick fix?</item>
+        <item quantity="other">%d things are late. Quick fix?</item>
+    </plurals>
+    <string name="due_this_month">Due this month</string>
+    <string name="open_statistics">Open your stats</string>
+    <string name="total_all_clear">All clear</string>
+    <string name="total_no_amounts">No amounts set</string>
+    <plurals name="bills_remaining">
+        <item quantity="one">%d bill left</item>
+        <item quantity="other">%d bills left</item>
+    </plurals>
+    <plurals name="without_amount">
+        <item quantity="one">+ %d without an amount</item>
+        <item quantity="other">+ %d without an amount</item>
+    </plurals>
+    <string name="tab_upcoming">Upcoming</string>
+    <string name="tab_done">Done</string>
+    <string name="tab_late">Late</string>
+    <string name="tab_late_count">Late · %1$d</string>
+    <string name="section_late">Late</string>
+    <string name="section_today">Today</string>
+    <string name="section_coming_up">Coming up</string>
+    <string name="section_done">Done</string>
+    <string name="view_everything">View everything</string>
+    <string name="home_empty_title">Nothing here yet</string>
+    <string name="home_empty_message">Add a bill, event, task or note and Duzup will keep watch for you.</string>
+    <string name="empty_upcoming_title">Nothing coming up</string>
+    <string name="empty_upcoming_message">Your plate is clear. Add something to stay ahead.</string>
+    <string name="empty_done_title">Nothing done yet this month</string>
+    <string name="empty_done_message">Finish something and it shows up here</string>
+    <string name="empty_late_title">Zero late. Respect</string>
+    <string name="empty_late_message">You\'re all caught up.</string>
+    <string name="no_amount">No amount set</string>
+
+    <!-- Status wording -->
+    <string name="due_in">Due in</string>
+    <string name="in_caption">In</string>
+    <string name="due_caption">Due</string>
+    <string name="when_caption">When</string>
+    <string name="due_today">Today</string>
+    <string name="due_today_spoken">Due today</string>
+    <string name="overdue">Late</string>
+    <string name="overdue_by">Late by</string>
+    <string name="overdue_today_spoken">Late since earlier today</string>
+    <string name="status_paid">Paid</string>
+    <string name="status_done">Done</string>
+    <string name="status_skipped">Skipped</string>
+    <string name="status_past">Past</string>
+    <string name="paid_on_spoken">Paid on %1$s</string>
+    <string name="done_on_spoken">Done on %1$s</string>
+    <string name="skipped_spoken">Skipped, was due %1$s</string>
+    <string name="past_spoken">Happened %1$s</string>
+    <plurals name="days_count">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+
+    <!-- Row subtitles -->
+    <string name="subtitle_all_day">All day</string>
+    <string name="subtitle_time_range">%1$s – %2$s</string>
+    <string name="subtitle_with_place">%1$s · %2$s</string>
+    <string name="subtitle_note">Note</string>
+    <string name="subtitle_turns">Turns %1$d</string>
+    <string name="subtitle_birthday">Birthday</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_normal">Normal</string>
+    <string name="priority_high">High</string>
+
+    <!-- Recurrence -->
+    <string name="repeat_none">Doesn\'t repeat</string>
+    <string name="repeat_daily">Every day</string>
+    <string name="repeat_weekly">Every week</string>
+    <string name="repeat_biweekly">Every 2 weeks</string>
+    <string name="repeat_monthly">Every month</string>
+    <string name="repeat_quarterly">Every 3 months</string>
+    <string name="repeat_yearly">Every year</string>
+    <string name="repeat_custom">Custom…</string>
+    <plurals name="repeat_every_days">
+        <item quantity="one">Every day</item>
+        <item quantity="other">Every %d days</item>
+    </plurals>
+    <plurals name="repeat_every_weeks">
+        <item quantity="one">Every week</item>
+        <item quantity="other">Every %d weeks</item>
+    </plurals>
+    <plurals name="repeat_every_months">
+        <item quantity="one">Every month</item>
+        <item quantity="other">Every %d months</item>
+    </plurals>
+    <plurals name="repeat_every_years">
+        <item quantity="one">Every year</item>
+        <item quantity="other">Every %d years</item>
+    </plurals>
+    <string name="custom_every">Repeat every</string>
+    <string name="unit_minutes">Minutes</string>
+    <string name="unit_hours">Hours</string>
+    <string name="unit_days">Days</string>
+    <string name="unit_weeks">Weeks</string>
+    <string name="unit_months">Months</string>
+    <string name="unit_years">Years</string>
+    <string name="ends_never">Never</string>
+    <string name="ends_on">Ends on %1$s</string>
+    <string name="ends_pick_date">Pick an end date…</string>
+
+    <!-- Reminders -->
+    <string name="reminder_on_due_date">On due date</string>
+    <string name="reminder_at_start">At start</string>
+    <string name="reminder_on_the_day">On the day</string>
+    <string name="reminder_at_the_time">At the time</string>
+    <string name="reminder_custom">Custom</string>
+    <plurals name="reminder_days_before">
+        <item quantity="one">%d day before</item>
+        <item quantity="other">%d days before</item>
+    </plurals>
+    <plurals name="reminder_hours_before">
+        <item quantity="one">%d hour before</item>
+        <item quantity="other">%d hours before</item>
+    </plurals>
+    <plurals name="reminder_minutes_before">
+        <item quantity="one">%d min before</item>
+        <item quantity="other">%d min before</item>
+    </plurals>
+    <string name="reminders_none">No reminders</string>
+    <string name="reminders_summary">%1$s · at %2$s</string>
+    <string name="custom_reminder_title">Custom reminder</string>
+    <string name="custom_reminder_amount">How long before?</string>
+    <string name="custom_reminder_hint">e.g. 30</string>
+    <string name="custom_reminder_before">before it happens</string>
+    <string name="no_reminders_note">No reminders for this one, so no nudges</string>
+
+    <!-- Add / Edit -->
+    <string name="new_bill_title">New bill</string>
+    <string name="new_bill_subtitle">Add the details, we\'ll watch the date.</string>
+    <string name="new_event_title">New event</string>
+    <string name="new_event_subtitle">Plans made, reminders set.</string>
+    <string name="new_task_title">New task</string>
+    <string name="new_task_subtitle">Get it out of your head.</string>
+    <string name="new_note_title">New note</string>
+    <string name="new_note_subtitle">Jot it down, find it later.</string>
+    <string name="new_birthday_title">New birthday</string>
+    <string name="new_birthday_subtitle">Never miss the special day.</string>
+    <string name="new_routine_title">New routine</string>
+    <string name="new_routine_subtitle">Small habits, big wins.</string>
+    <string name="edit_title">Edit %1$s</string>
+    <string name="edit_future_note">Changes apply to what\'s still ahead. Anything you already finished or paid stays exactly as recorded.</string>
+    <string name="save_item">Save it</string>
+
+    <string name="field_bill_name">Bill name</string>
+    <string name="field_bill_name_hint">e.g. Electricity</string>
+    <string name="field_event_name">Event name</string>
+    <string name="field_event_name_hint">e.g. Sam\'s party</string>
+    <string name="field_task_name">Task</string>
+    <string name="field_task_name_hint">e.g. Submit assignment</string>
+    <string name="field_note_title">Title</string>
+    <string name="field_note_title_hint">e.g. Wi-Fi password</string>
+    <string name="field_note_body">Note</string>
+    <string name="field_note_body_hint">Write anything here…</string>
+    <string name="field_birthday_name">Whose birthday?</string>
+    <string name="field_birthday_name_hint">e.g. Sara</string>
+    <string name="field_routine_name">Routine</string>
+    <string name="field_routine_name_hint">e.g. Drink water</string>
+    <string name="field_amount">Amount</string>
+    <string name="field_amount_optional">Amount (optional)</string>
+    <string name="field_amount_hint">0.00</string>
+    <string name="field_currency">Currency</string>
+    <string name="field_due_date">Due date</string>
+    <string name="field_due_date_hint">Pick a date</string>
+    <string name="field_event_date">Date</string>
+    <string name="field_due_time">Due time</string>
+    <string name="field_starts_at">Starts at</string>
+    <string name="field_ends_at">Ends at</string>
+    <string name="no_end_time">No end time</string>
+    <string name="remove_end_time">Remove end time</string>
+    <string name="field_all_day">All day</string>
+    <string name="field_all_day_desc">No specific time</string>
+    <string name="field_place_optional">Place (optional)</string>
+    <string name="field_place_hint">Where is it?</string>
+    <string name="field_priority">Priority</string>
+    <string name="field_note_date">Remind me on</string>
+    <string name="field_note_time">At what time</string>
+    <string name="field_pin">Pin to top</string>
+    <string name="field_pin_desc">Keeps it at the top of Notes</string>
+    <string name="field_note_remind">Remind me</string>
+    <string name="field_note_remind_desc">Get a nudge about this note</string>
+    <string name="field_birthday_date">Birthday date</string>
+    <string name="birthday_year_hint">Add the year too if you want to see their age</string>
+    <string name="field_show_age">Show their age</string>
+    <string name="field_show_age_desc">Notifications mention how old they\'re turning</string>
+    <string name="field_remind_at">Remind me at</string>
+    <string name="field_gift_ideas_hint">Gift ideas, favourites…</string>
+    <string name="field_routine_times">Times of day</string>
+    <string name="add_time">Add a time</string>
+    <string name="field_routine_days">Which days?</string>
+    <string name="routine_every_day">No days picked means every single day</string>
+    <string name="routine_picked_days">Only on the days you picked</string>
+    <string name="routine_every_day_short">Every day</string>
+    <string name="field_routine_start">Starting from</string>
+    <string name="field_reminder_time">Reminder time</string>
+    <string name="field_repeat">Repeat</string>
+    <string name="field_ends">Ends</string>
+    <string name="field_reminders">Remind me</string>
+    <string name="field_notes">Notes</string>
+    <string name="field_notes_optional">Notes (optional)</string>
+    <string name="field_notes_hint">Anything else to remember?</string>
+    <string name="past_due_note">That date\'s in the past, so it\'ll show as late until you finish it</string>
+
+    <string name="error_title_required">Give it a name</string>
+    <string name="error_title_too_long">Keep the name under %1$d characters.</string>
+    <string name="error_amount_invalid">That amount looks off. Try something like 1250.50</string>
+    <string name="error_amount_decimals">This currency can\'t use that many decimals.</string>
+    <string name="error_amount_positive">Pick an amount above zero, or leave it empty.</string>
+    <string name="error_amount_large">That amount is too big.</string>
+    <string name="error_date_required">Pick a date</string>
+    <string name="error_end_time_before_start">The end has to come after the start.</string>
+    <string name="error_interval_invalid">Use a number from 1 to 999.</string>
+    <string name="error_end_before_start">It can\'t end before it starts.</string>
+    <string name="error_offset_invalid">Reminders can be from 0 minutes up to 365 days before.</string>
+    <string name="error_notes_too_long">Keep notes under %1$d characters.</string>
+    <string name="error_location_too_long">Keep the place under %1$d characters.</string>
+    <string name="error_routine_times">Add at least one time (up to 8).</string>
+
+    <!-- Details -->
+    <string name="item_not_found_title">Couldn\'t find that</string>
+    <string name="item_not_found_message">It may have been deleted.</string>
+    <string name="next_due">Next due</string>
+    <string name="next_event">Coming up</string>
+    <string name="next_task">Next up</string>
+    <string name="next_memo">Your reminder</string>
+    <string name="next_birthday">Next birthday</string>
+    <string name="next_routine">Next time</string>
+    <string name="all_paid_up">All paid up</string>
+    <string name="all_done">All done</string>
+    <string name="all_clear_event">Nothing coming up</string>
+    <string name="all_clear_birthday">All set</string>
+    <string name="no_unpaid_recurring">The next one shows up here when it\'s time.</string>
+    <string name="no_unpaid_single">This one\'s paid or skipped.</string>
+    <string name="no_next_recurring">The next one appears here when it\'s time.</string>
+    <string name="no_next_single">Nothing left on this one.</string>
+    <string name="mark_as_paid">Mark as paid</string>
+    <string name="mark_done">Mark done</string>
+    <string name="mark_done_short">Mark done</string>
+    <string name="snooze_10m">In 10 minutes</string>
+    <string name="snooze_1h">In 1 hour</string>
+    <string name="snooze_3h">In 3 hours</string>
+    <string name="snooze_tomorrow">Tomorrow morning</string>
+    <string name="section_upcoming_overdue">Up next</string>
+    <string name="section_history_bill">Payment history</string>
+    <string name="section_history_other">History</string>
+    <string name="history_empty">Nothing here yet.</string>
+    <string name="routine_today">Today</string>
+    <string name="routine_mark">Done</string>
+    <string name="routine_done_undo">Undo</string>
+    <string name="detail_when">When</string>
+    <string name="detail_place">Place</string>
+    <string name="detail_remind_on">Reminds you on</string>
+    <string name="detail_birthday_date">Birthday</string>
+    <string name="detail_note">Note</string>
+    <string name="edit_item">Edit</string>
+    <string name="archive_item">Archive</string>
+    <string name="restore_item">Restore</string>
+    <string name="restore_bill">Restore</string>
+    <string name="delete_item">Delete</string>
+    <string name="pin_note">Pin to top</string>
+    <string name="unpin_note">Unpin</string>
+    <string name="edit_payment">Edit payment</string>
+    <string name="payment_amount_paid">Amount paid (optional)</string>
+    <string name="payment_date">Paid on</string>
+    <string name="payment_note_optional">Note (optional)</string>
+    <string name="payment_note_hint">Receipt number, method…</string>
+    <string name="archive_item_title">Archive this?</string>
+    <string name="archive_item_message">Archived items stop sending reminders and leave your totals. History is kept and you can restore it anytime.</string>
+    <string name="delete_item_title">Delete this?</string>
+    <string name="delete_item_message">It\'ll be gone from this phone for good, including its history. This can\'t be undone.</string>
+    <string name="archived_banner">This one\'s archived, so no reminders and it\'s out of your totals.</string>
+    <string name="archived_label">Archived</string>
+    <string name="notice_no_reminders">Reminders are off for this one.</string>
+    <string name="notice_notifications_blocked">Notifications are blocked, so reminders can\'t show up</string>
+    <string name="notice_inexact_alarms">Exact alarms are off, so reminders might land a few minutes late</string>
+    <string name="snackbar_snoozed">Got it, I\'ll remind you again</string>
+    <string name="snackbar_snooze_failed">Couldn\'t set that reminder.</string>
+
+    <!-- Calendar -->
+    <string name="calendar_today">Today</string>
+    <string name="bills_on_day">On %1$s</string>
+    <string name="calendar_day_empty">Free day</string>
+    <string name="calendar_day_none">%1$s, nothing planned</string>
+    <string name="calendar_day_counts">%1$s: %2$d things, %3$d late, %4$d coming up, %5$d done</string>
+
+    <!-- Notes -->
+    <string name="notes_title">Notes</string>
+    <string name="notes_subtitle">Your quick-capture space.</string>
+    <string name="notes_quick_label">Jot it down</string>
+    <string name="notes_quick_hint">Type and tap</string>
+    <string name="notes_save_quick">Save note</string>
+    <string name="notes_pinned">Pinned</string>
+    <string name="notes_all">All notes</string>
+    <string name="notes_empty_title">No notes yet</string>
+    <string name="notes_empty_message">Jot something down above, or tap + for a full note.</string>
+    <string name="note_reminder_on">%1$s · %2$s</string>
+
+    <!-- Stats -->
+    <string name="stats_title">Your stats</string>
+    <string name="stats_empty_title">Nothing to show yet</string>
+    <string name="stats_empty_message">Stats show up once you have bills due or payments in the month.</string>
+    <string name="stats_pending">Coming up</string>
+    <string name="stats_paid_amount">Paid this month</string>
+    <string name="stats_by_category">Where it goes</string>
+    <string name="stats_definitions">Paid counts payments made in the month (the actual amount if you entered one). Coming up and Late count unpaid bills due in the month. Currencies are never added together.</string>
+
+    <!-- History -->
+    <string name="all_bills_title">Everything</string>
+    <string name="all_bills_subtitle">Search all your stuff and its history.</string>
+    <string name="mode_activity">Activity</string>
+    <string name="mode_items">Items</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search by name or category</string>
+    <string name="show_archived">Show archived</string>
+    <string name="filter_all">All</string>
+    <string name="filter_category_all">All categories</string>
+    <string name="filter_date">Date</string>
+    <string name="date_all_time">All time</string>
+    <string name="date_this_month">This month</string>
+    <string name="date_last_30">Last 30 days</string>
+    <string name="date_next_30">Next 30 days</string>
+    <string name="date_this_year">This year</string>
+    <string name="sort_title">Sort by</string>
+    <string name="sort_prefix">Sort: %1$s</string>
+    <string name="sort_date_newest">Date, newest first</string>
+    <string name="sort_date_oldest">Date, oldest first</string>
+    <string name="sort_amount">Amount, highest first</string>
+    <string name="sort_name">Name, A to Z</string>
+    <string name="history_none_title">Nothing found</string>
+    <string name="history_none_message">Try a different search or clear a filter.</string>
+    <string name="bills_none_title">No items found</string>
+    <string name="bills_none_message">Try a different search, or add something new</string>
+
+    <!-- Reminders screen -->
+    <string name="reminders_title">Reminders</string>
+    <string name="reminders_subtitle">What\'s scheduled and what already went off.</string>
+    <string name="reminders_scheduled">Coming up</string>
+    <string name="reminders_delivered">Went off recently</string>
+    <string name="reminders_none_title">Nothing scheduled</string>
+    <string name="reminders_none_message">Reminders show up here once you add something with reminders on.</string>
+    <string name="reminders_diagnostics">Reminder diagnostics</string>
+    <string name="reminder_kind_upcoming">Heads-up</string>
+    <string name="reminder_kind_due">Due</string>
+    <string name="reminder_kind_overdue">Late</string>
+    <string name="reminder_kind_snoozed">Snoozed</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_stats">Your stats</string>
+    <string name="settings_stats_desc">Monthly totals and where your money goes</string>
+    <string name="settings_appearance">Look and feel</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_first_day">Week starts on</string>
+    <string name="day_monday">Monday</string>
+    <string name="day_sunday">Sunday</string>
+    <string name="settings_haptics">Haptic feedback</string>
+    <string name="settings_haptics_desc">A little buzz when you finish something</string>
+    <string name="settings_reduce_motion">Reduce motion</string>
+    <string name="settings_reduce_motion_desc">Fewer animations and transitions</string>
+    <string name="settings_defaults">Reminder defaults</string>
+    <string name="settings_default_time">Default reminder time</string>
+    <string name="settings_defaults_for">Defaults for…</string>
+    <string name="settings_defaults_when">Remind me</string>
+    <string name="settings_default_offsets_note">Used when you add something new. Existing items keep their own reminders.</string>
+    <string name="settings_overdue_reminders">Late nudge</string>
+    <string name="settings_overdue_reminders_desc">One extra reminder the day after a bill or task is due, if it\'s still open</string>
+    <string name="settings_snooze">Remind later waits…</string>
+    <string name="settings_quiet">Quiet hours</string>
+    <string name="settings_quiet_switch">Quiet hours</string>
+    <string name="settings_quiet_desc">Hold reminders until the quiet window ends</string>
+    <string name="settings_quiet_from">From</string>
+    <string name="settings_quiet_to">Until</string>
+    <string name="settings_quiet_note">Something that starts during quiet hours still reminds you on time, so you never miss it.</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_hide_amounts">Hide amounts in notifications</string>
+    <string name="settings_hide_amounts_desc">Show only the name</string>
+    <string name="status_notifications">Notifications</string>
+    <string name="status_exact_alarms">Exact alarms</string>
+    <string name="status_allowed">On</string>
+    <string name="status_blocked">Blocked</string>
+    <string name="status_inexact">Off (approximate timing)</string>
+    <string name="allow_notifications">Allow notifications</string>
+    <string name="open_notification_settings">Open notification settings</string>
+    <string name="channels_button">Sound and vibration</string>
+    <string name="channels_title">Sound and vibration</string>
+    <string name="channels_desc">Sound is on by default. Pick a different tone, change vibration or mute each type of reminder on its own.</string>
+    <string name="notifications_blocked_explainer">Duzup can\'t show reminders while notifications are blocked. The app still works and everything is still tracked.</string>
+    <string name="allow_exact_alarms">Allow exact alarms</string>
+    <string name="exact_alarm_explainer">Without this, reminders still arrive, but Android may deliver them a few minutes late.</string>
+    <string name="battery_title">Battery optimization</string>
+    <string name="battery_explainer">Some phone makers restrict background apps aggressively, which can delay reminders. If they arrive late, let Duzup run without battery limits. Delivery can\'t be guaranteed on every phone.</string>
+    <string name="battery_settings">Battery settings</string>
+    <string name="settings_backup">Backup and restore</string>
+    <string name="backup_explainer">Export everything to a file you choose, and import it later or on another phone.</string>
+    <string name="backup_warning">Your data lives only on this phone. Uninstall or clear data and it\'s gone, unless you exported a backup. Backup files aren\'t encrypted, so keep them somewhere safe</string>
+    <string name="backup_export">Export backup</string>
+    <string name="backup_import">Import backup</string>
+    <string name="import_title">Import backup</string>
+    <string name="import_summary">This backup has %1$d items, %2$d history records and %3$d categories.</string>
+    <string name="import_replace_desc">Replace: wipes everything on this phone first, then restores the backup, settings included.</string>
+    <string name="import_merge_desc">Merge: keeps what\'s here and only adds what\'s missing. Existing items win if they match.</string>
+    <string name="import_replace">Replace everything</string>
+    <string name="import_merge">Merge</string>
+    <string name="import_error_not_backup">That file isn\'t a Duzup backup.</string>
+    <string name="import_error_version">That backup is from a newer version of Duzup.</string>
+    <string name="import_error_invalid">That backup is damaged or inconsistent. Nothing was imported.</string>
+    <string name="import_error_too_large">That backup file is too large.</string>
+    <string name="snackbar_export_done">Backup saved</string>
+    <string name="snackbar_export_failed">Couldn\'t save the backup.</string>
+    <string name="snackbar_import_replaced">Backup restored: %1$d items, %2$d history records</string>
+    <string name="snackbar_import_merged">Backup merged: added %1$d items, %2$d history records</string>
+    <string name="snackbar_import_failed">Couldn\'t read that file. Nothing was imported.</string>
+    <string name="snackbar_reset_done">Everything was reset</string>
+    <string name="settings_about">About ℹ</string>
+    <string name="about_version">Version</string>
+    <string name="about_title">About Duzup</string>
+    <string name="about_body">Duzup keeps track of your bills, events, tasks, notes, birthdays and routines, and nudges you at the right time.\n\nIt works fully offline. No account, no server, no analytics.\n\nFonts: Inter and Pixelify Sans, both under the SIL Open Font License 1.1.</string>
+    <string name="privacy_title">Privacy</string>
+    <string name="privacy_row_hint">Everything stays on this phone</string>
+    <string name="privacy_body">Everything you enter stays on this phone, in the app\'s private storage.\n\nDuzup has no internet permission, no account, no ads and no tracking. Nothing is ever uploaded.\n\nBackup files you export aren\'t encrypted. Anyone who can open the file can read it, so keep it somewhere safe.</string>
+    <string name="reset_data">Reset everything</string>
+    <string name="reset_title">Reset everything?</string>
+    <string name="reset_message">This permanently deletes every item, history record, custom category and setting on this phone. Export a backup first if you might want it back.</string>
+    <string name="reset_confirm">Delete everything</string>
+
+    <!-- Permission rationale -->
+    <string name="permission_title">Turn on reminders?</string>
+    <string name="permission_body">To nudge you at the right time, Duzup needs permission to show notifications. You can change this anytime in Settings.</string>
+    <string name="permission_allow">Let\'s do it</string>
+    <string name="permission_later">Not now</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_skip">Skip for now</string>
+    <string name="onboarding_continue">Next</string>
+    <string name="onboarding_get_started">Let\'s go</string>
+    <string name="onboarding_page_of">Page %1$d of %2$d</string>
+    <string name="onboarding_track_title">Remember everything</string>
+    <string name="onboarding_track_body">Bills, events, tasks, notes, birthdays and routines, all in one place.</string>
+    <string name="onboarding_alerts_title">Nudges that actually land</string>
+    <string name="onboarding_alerts_body">Pick when you want to be reminded. You can tweak it for each thing later.</string>
+    <string name="onboarding_permission_why">Reminders need notification permission. Without it the app still tracks everything, it just can\'t nudge you.</string>
+    <string name="onboarding_private_title">Private by default</string>
+    <string name="onboarding_private_body">No account. No cloud. Everything stays on your phone.</string>
+    <string name="onboarding_currency_note">New bills start with this currency. You can pick a different one for any bill.</string>
+
+    <!-- Plurals / misc shared -->
+    <plurals name="notif_summary">
+        <item quantity="one">%d reminder</item>
+        <item quantity="other">%d reminders</item>
+    </plurals>
+</resources>
